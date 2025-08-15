@@ -1,4 +1,4 @@
-# ✅ ToDo App
+#  ToDo App
 
 A simple and intuitive task management application to help you organize your daily activities.  
 Add, update, mark as complete, or delete tasks easily — all while keeping them saved in your browser’s local storage.
