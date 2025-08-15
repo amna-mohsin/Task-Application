@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do Application - By Sharathchandar.K</title>
+    <link rel="stylesheet" href="task.css" />
+  </head>
+  <body>
+<div class="container">
+    <div class="todo-header">
+   <h2 style="display: inline-block; margin-right: 10px;">ToDo List</h2>
+<img src="Assets/notebook.png" height="50px" style="vertical-align: middle;">
+</div>
+<div class="todo-body">
+<input
+    type="text"
+    id="todoText"
+    class="todo-input"
+    placeholder="Add your items"
+/>
+<img
+    src="Assets/plus.png"
+    alt="+"
+    id="AddUpdateClick"
+    onclick="CreateToDoItems();"
+/>
+</div>
+<h5 id="Alert"></h5>
+<ul id="list-items" class="list-items"></ul>
+<div class="center-container">
+    <button class="btn" onclick="window.location.href='index.html'">Back</button>
+</div>
+
+</div>
+
+    <script type="text/javascript" src="task.js"></script>
+  </body>
+</html>
