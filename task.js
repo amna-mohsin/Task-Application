@@ -130,7 +130,7 @@ function DeleteToDoItems(e) {
 function CompletedToDoItems(e) {
   if (e.parentElement.querySelector("div").style.textDecoration === "") {
     const img = document.createElement("img");
-    img.src = "check-mark.png";
+    img.src = "Assets/check-mark.png";
     img.className = "todo-controls";
     e.parentElement.querySelector("div").style.textDecoration = "line-through";
     e.parentElement.querySelector("div").appendChild(img);
